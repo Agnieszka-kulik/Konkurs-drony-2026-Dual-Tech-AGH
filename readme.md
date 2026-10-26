@@ -6,18 +6,11 @@ During this semester, we built a comprehensive, dual-drone system consisting of 
 ---
 
 ## 📸 Gallery
-*(Placeholders for your photos - replace the links with your actual image paths)*
-
-<div align="center">
-  <img src="link_do_zdjecia_zespolu.jpg" alt="Team Side Quest" width="400"/>
-  <br>
-  <i>Team Side Quest in action!</i>
-</div>
-
-<div align="center">
-  <img src="link_do_zdjecia_ugv.jpg" alt="UGV Rolling Drone" width="45"/>
-  <img src="link_do_zdjecia_uav.jpg" alt="UAV Flying Drone" width="45"/>
-</div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b3848e17-25cb-4923-a63c-328e324b23b1" width="30%" alt="Side Quest Drone 1" />
+  <img src="https://github.com/user-attachments/assets/bdc40ffe-b6df-434b-a587-1672edd490cb" width="30%" alt="Side Quest Drone 2" />
+  <img src="https://github.com/user-attachments/assets/7731baba-7205-4328-9d57-f5d0c04f3f1d" width="30%" alt="Side Quest Drone 3" />
+</p>
 
 ---
 
@@ -58,10 +51,3 @@ Our mission was to design, build, and program two distinct vehicles capable of d
 1. `DronJezdzacyAutko` (UGV Node): Handles multi-threaded camera capture, asynchronous YOLO+QR inference, motor PWM control, and gripper stepping.
 2. `DronLatajacy` (UAV Node): Interfaces with the ArduPilot FC via UART/MAVLink, fetches telemetry at 10Hz, runs vision pipelines, and pairs detections with current GPS data.
 3. `OdbiornikLaptop` (Ground Station Node): Receives compressed images, telemetry, and custom `Detection` messages, rendering a full FPV HUD with an artificial horizon and status overlays.
-
----
-
-## 🏆 Conclusion
-Taking part in this competition was an amazing adventure. We worked incredibly hard, overcame many setbacks, and built a highly complex, multi-agent robotic system from scratch. 
-
-**Good job, Side Quest!** 🚀
